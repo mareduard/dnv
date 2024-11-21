@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 50px; 
+  }
+  
+  .card {
+    margin-top: 20px; 
+  }
+  .body {
+    background-color: #ca9393; /* Cinza claro */
+    margin: 0; /* Remove a margem padrão do navegador */
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+  }
+  

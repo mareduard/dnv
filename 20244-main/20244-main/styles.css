@@ -1,0 +1,14 @@
+.adjusted-img {
+    width: 100%; /* Largura total do card */
+    height: 50px; /* Altura fixa e uniforme */
+    object-fit: cover; /* Preenche o espaço cortando excessos */
+    object-position: center; /* Centraliza a imagem no recorte */
+    display: block; /* Corrige possíveis problemas de alinhamento */
+}
+.card {
+    height: 100%; /* Garante que o card tenha altura consistente */
+}
+
+.card-body {
+    flex-grow: 1; /* Faz o conteúdo crescer proporcionalmente */
+}
